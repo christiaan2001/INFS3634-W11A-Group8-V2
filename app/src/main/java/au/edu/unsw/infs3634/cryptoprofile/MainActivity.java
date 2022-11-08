@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     public void launchDetailActivity(String msg) {
         Intent intent = new Intent(MainActivity.this, DetailActivity.class);
         intent.putExtra(DetailActivity.INTENT_MESSAGE ,msg);
+        //startActivity(intent);
         startActivity(intent);
     }
 
